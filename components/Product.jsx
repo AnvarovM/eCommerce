@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "next/link";
-
+import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { urlFor } from "../lib/client";
+import { useStateContext } from "../context/StateContext";
 
-const Product = ({ product: { image, name, slug, price } }) => {
+const Product = ({ product: { image, name, slug, price }, product }) => {
+  const { like, setLike, addLike, qty } = useStateContext();
   return (
     <div>
       <Link href={`/product/${slug.current}`}>

@@ -6,7 +6,8 @@ import Footer from './Footer'
 const Layout = ({ children }) => {
   return <div className="layout">
     <Head>
-      <title>Headphones store</title>
+      <title>Voila :) Store</title>
+      <link rel="shortcut icon" href="/headphones-16.ico" />
     </Head>
 
     <header>

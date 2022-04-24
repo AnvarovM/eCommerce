@@ -1,5 +1,6 @@
 export { default as Footer } from "./Footer.jsx";
 export { default as Cart } from "./Cart.jsx";
+export { default as Like } from "./Like.jsx";
 export { default as FooterBanner } from "./FooterBanner.jsx";
 export { default as HeroBanner } from "./HeroBanner.jsx";
 export { default as Layout } from "./Layout.jsx";
