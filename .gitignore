@@ -2,8 +2,11 @@
 
 # dependencies
 /node_modules
+/ecommerce/node_modules
+.env
 /.pnp
 .pnp.js
+.vscode
 
 # testing
 /coverage
@@ -30,3 +33,4 @@ yarn-error.log*
 
 # vercel
 .vercel
+node_modules
